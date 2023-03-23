@@ -1,13 +1,15 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Nav from './Components/NavbarCmp/NavbarCom';
-import Container from './Components/Container/Container';
+
+
+import{BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Addreply from './Components/Addreplycomp/Addreply';
 function App() {
   return (
     <div className="App">
-      <Nav/>
-      <Container/>
+     <Addreply/>
+     
     </div>
   );
 }
