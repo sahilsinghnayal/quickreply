@@ -1,14 +1,13 @@
 .sidebarButton {
-  color: rgb(0, 0, 0) !important;
-
-  font-weight: 600 !important;
+  color: rgb(88 53 192) !important;
+  font-weight: 700 !important;
   /* background-color: #a6aac1!important; */
   border-bottom: 1px solid #114962 !important;
 }
 .sidebarContainer {
   /* width: 100%; */
 
-  background-color: whitesmoke;
+  background-color: rgb(255, 255, 255);
   padding: 20px;
   width: 16%;
   height: 100vh;
@@ -19,6 +18,7 @@
   height: 100%;
   overflow: auto;
   display: flex;
+ 
   gap: 3rem;
   flex-direction: column;
 }

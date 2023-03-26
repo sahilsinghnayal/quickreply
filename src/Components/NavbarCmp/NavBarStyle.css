@@ -4,9 +4,11 @@
   padding: 10px;
   align-items: center;
   background-color: #094058;
+  /* background: linear-gradient(45deg, #f54266, #3858f9); */
+ 
 
   /* border: 1px solid grey; */
-  box-shadow: rgba(0, 0, 0, 3.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .LogoutBtn {
   color: white;

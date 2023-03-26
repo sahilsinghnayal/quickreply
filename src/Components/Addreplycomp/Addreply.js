@@ -5,7 +5,9 @@ import "./AddReplyStyle.css";
 import TextField from "@mui/material/TextField";
 import TextareaAutosize from "@mui/base/TextareaAutosize";
 import Button from "@mui/material/Button";
+import CircularIndeterminate from "../Loader/Loading";
 function Addreply() {
+  const[loading ,setLoading]=React.useState(false)
   return (
     <>
     <div style={{height:"100vh",overflow:"hidden"}}>
@@ -13,8 +15,10 @@ function Addreply() {
       <div className="containeraddreply">
         <Sidebar />
         <div className="addreplycontainer">
+          {loading?
+            <CircularIndeterminate/> :
           <div className="addreplyinner">
-            <h3 style={{fontWeight:700,textDecoration:"underline"}}>Add Reply</h3>
+            <h3 style={{fontWeight:500,color:"#094058"}}>Add Reply</h3>
             <div>
               <TextField
                 id="outlined-basic"
@@ -31,9 +35,10 @@ function Addreply() {
               />
             </div>
             <div>
-                <Button variant="contained">Submit</Button>
+                <Button variant="contained" >Submit</Button>
                 </div>
           </div>
+          }
         </div>
       </div>
     </div>
