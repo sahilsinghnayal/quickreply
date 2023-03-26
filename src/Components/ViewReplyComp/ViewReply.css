@@ -1,0 +1,26 @@
+.ViewReplyContainer{
+    width: 80%;
+    
+}
+.ViewReplyInner{
+    margin-top: 2rem;
+}
+.tablecontainer{
+    margin-top: 2rem;
+}
+.editbtn{
+    background-color: #ffa000;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: white;
+    cursor: pointer;
+}
+.deletebtn{
+    background-color: #ef2626;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: white;
+   
+}

@@ -22,7 +22,7 @@ function Addreply() {
             <div>
               <TextField
                 id="outlined-basic"
-                label="Add Category"
+                label="Write Category"
                 variant="outlined"
               />
             </div>

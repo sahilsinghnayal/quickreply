@@ -1,9 +1,16 @@
 .sidebarButton {
-  color: rgb(88 53 192) !important;
+  color: rgb(24, 12, 62) !important;
   font-weight: 700 !important;
   /* background-color: #a6aac1!important; */
-  border-bottom: 1px solid #114962 !important;
+  border-bottom: 1px solid #621111 !important;
 }
+.sidebarButton:hover{
+color: rgb(255, 68, 0)!important;
+
+border-bottom: 2px solid #621111 !important;
+
+}
+
 .sidebarContainer {
   /* width: 100%; */
 
