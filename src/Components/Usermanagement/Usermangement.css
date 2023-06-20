@@ -1,0 +1,48 @@
+.usermanagementcontainer{
+    display: flex;
+    gap: 10px;
+}
+.userprofilecontainer{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.searchBarAndAddUserBtn{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 13px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .css-10botns-MuiInputBase-input-MuiFilledInput-input {
+        height: 12px!important;
+    }
+    .searchbar{
+        display: flex;
+        gap:10px;
+    }
+    .userMangementcontainer{
+        /* height: 100vh; */
+        /* overflow: hidden; */
+        padding: 7px;
+    
+    }
+    .tables{
+        /* padding:13px */
+        margin-top: 11px;
+
+        overflow-y: scroll;
+        height: 70vh;
+        
+    }
+    .innerUsermanagement{
+        padding: 13px;
+        /* border:1px solid red; */
+        width: 100%;
+        height: 90%;
+        
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }

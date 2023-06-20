@@ -7,6 +7,9 @@
 }
 .tablecontainer{
     margin-top: 2rem;
+    margin-top: 2rem;
+    height: 70vh;
+    overflow-y: scroll;
 }
 .editbtn{
     background-color: #ffa000;

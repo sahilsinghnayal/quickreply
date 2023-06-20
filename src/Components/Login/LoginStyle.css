@@ -1,0 +1,39 @@
+.logincontainer {
+    height: 100svh;
+    background: #094058;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .LoginFormContainer {
+    /* border: 2px solid red; */
+    height: 50svh;
+    width: 50svh;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .LoginFormHeader img {
+    width: 6rem;
+    height: 6rem;
+  }
+  .userInputDiv {
+    height: 18svh;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+  }
+  .loginBtn {
+    margin-top: 1rem;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .LoginFormHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .loginBtnhandle {
+    background-color: #143673!important;
+  }

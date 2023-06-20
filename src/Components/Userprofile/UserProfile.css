@@ -1,0 +1,56 @@
+.userProfilecontainer {
+  height: 100vh;
+}
+.innercontent {
+  box-shadow: rgba(0, 0, 0, 0.94) 0px 3px 8px;
+  width: 30%;
+  height: 60vh;
+  margin-top: 2rem;
+  padding: 11px;
+}
+.userProfilecontent {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2rem;
+}
+.backbtncontainer {
+  display: flex;
+  justify-content: start;
+  padding: 11px;
+}
+.userImgcontainer img {
+  width: 25%;
+  height: 30%;
+  border-radius: 65px;
+}
+.userImgcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Editbtn{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+.containerinfo{
+  /* border:1px solid red; */
+  width: 100%;
+  font-weight: 700;
+  padding: 11px;
+}
+.userInformation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.containerflex{
+  display: flex;
+  
+}
